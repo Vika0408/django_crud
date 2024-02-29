@@ -1,10 +1,25 @@
+{% extends 'crud/base.html' %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>ProjectX</title>
 </head>
+{% block content %}
 <body>
-<h1>Hello World!!!</h1>
+<br>
+<br>
+<div class="text-center">
+    <h3> ProjectX... Management at its finest </h3>
+    <br>
+    <h5> Keep track of your records effectively!</h5>
+    <hr>
+    <br>
+
+    <a class="btn btn-primary" type="button" href="{% url '' %}"> Create your account </a>
+</div>
+
+
 </body>
+{% endblock %}
 </html>
