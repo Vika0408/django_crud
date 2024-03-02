@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4966a520-e953-4d7f-a633-deae70420012" name="Changes" comment="changes">
-      <change afterPath="$PROJECT_DIR$/crud/templates/crud/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5e82c86-e1ba-4757-a74b-1bc59cdad299.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d5e82c86-e1ba-4757-a74b-1bc59cdad299.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/crud/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/templates/crud/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/templates/crud/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/templates/crud/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/templates/crud/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/templates/crud/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/templates/crud/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/templates/crud/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/templates/crud/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +33,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Vika0408&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="cfbff4e4-6d9e-408d-8e40-2c07229dac22" />
+        <option name="url" value="https://github.com/Vika0408/django_crud.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -90,7 +110,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
       </set>
     </attachedChunks>
   </component>
@@ -105,6 +125,8 @@
       <workItem from="1709134579960" duration="2854000" />
       <workItem from="1709206375264" duration="4215000" />
       <workItem from="1709310200955" duration="891000" />
+      <workItem from="1709316382489" duration="842000" />
+      <workItem from="1709359115885" duration="4641000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -122,26 +144,34 @@
       <option name="project" value="LOCAL" />
       <updated>1709219019131</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changes">
+      <option name="closed" value="true" />
+      <created>1709313951666</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709313951666</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="changes" />
     <option name="LAST_COMMIT_MESSAGE" value="changes" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/djangoProject/settings.py</url>
-          <line>60</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
