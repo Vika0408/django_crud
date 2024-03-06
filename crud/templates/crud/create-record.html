@@ -1,10 +1,23 @@
+{% extends 'crud/base.html' %}
+{% load crispy_forms_filters %}
+{% load crispy_forms_tags %}
+{% block content %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
 <body>
+<div class="container bg-light shadow-md p-5 form-layout">
+    <h3> Create Record </h3>
+    <h6> Start adding in the required details for your record </h6>
+    <hr>
+    <br>
+    <form method="POST" autocomplete="off">
+        {% csrf_token %}
+        {{form|crispy}}
+        <br>
+        <button type="submit" class="btn btn-primary w-100 btn-block p-2"> Create Record </button>
 
+    </form>
+</div>
 </body>
 </html>
+{% endblock %}
