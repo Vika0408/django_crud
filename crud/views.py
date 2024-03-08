@@ -5,6 +5,7 @@ from django.contrib.auth import authenticate
 from django.contrib.auth.decorators import login_required
 from .models import Record
 
+
 # Create your views here.
 
 def home(request):
@@ -47,20 +48,26 @@ def dashboard(request):
     context = {'records': my_records}
     return render(request, 'crud/dashboard.html', context=context)
 
+
 # - Create a record
 
 @login_required(login_url='my-login')
 def create_record(request):
     form = CreateRecordForm()
-    if request.method == 'POST' :
+    if request.method == 'POST':
         form = CreateRecordForm(request.POST)
-        if form.is_valid() :
+        if form.is_valid():
             form.save()
             return redirect("dashboard")
 
-    context = {'form' : form}
+    context = {'form': form}
     return render(request, 'crud/create-record.html', context=context)
 
+
+@login_required(login_url='my-login')
+def update_record(request, pk):
+    record = Record.objects.get(id=pk)
+    form = UpdateRecordForm(instance=record)
 
 
 def user_logout(request):
