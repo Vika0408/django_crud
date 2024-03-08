@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4966a520-e953-4d7f-a633-deae70420012" name="Changes" comment="06-03-2024">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/templates/crud/view-record.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/templates/crud/view-record.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +129,7 @@
       <workItem from="1709536412082" duration="3494000" />
       <workItem from="1709540038128" duration="124000" />
       <workItem from="1709729218021" duration="1839000" />
-      <workItem from="1709890337710" duration="885000" />
+      <workItem from="1709890337710" duration="1835000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -201,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709890952158</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="06-03-2024">
+      <option name="closed" value="true" />
+      <created>1709891440660</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709891440660</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

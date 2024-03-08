@@ -69,16 +69,24 @@ def update_record(request, pk):
     record = Record.objects.get(id=pk)
     form = UpdateRecordForm(instance=record)
 
-    if request.method == 'POST' :
+    if request.method == 'POST':
         form = UpdateRecordForm(request.POST, instance=record)
 
         if form.is_valid():
             form.save()
             return redirect("dashboard")
 
-    context = {'form':form}
+    context = {'form': form}
     return render(request, 'crud/update-record.html', context=context)
 
+
+# - view a record
+
+@login_required(login_url='my-login')
+def update_record(request, pk):
+    all_records = Record.objects.get(id=pk)
+    context = {'record': all_records}
+    return render(request, 'crud/view-record.html', context=context)
 
 
 def user_logout(request):

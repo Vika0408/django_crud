@@ -1,10 +1,23 @@
+{% extends 'crud/base.html' %}
+{% block content %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
 <body>
-
+ <div class = "card">
+     <strong>
+         {{ record.first_name|upper }} {{ record.last_name }}
+     </strong>
+     <div class="card-body">
+         <p> <strong> ID : </strong>{{ record.id }} </p>
+         <p> <strong> Email : </strong> {{ record.email }} </p>
+         <p> <strong> Phone : </strong> {{ record.phone }} </p>
+         <p> <strong> Address : </strong> {{ record.address }} </p>
+         <p> <strong> City : </strong> {{ record.city }} </p>
+         <p> <strong> Province : </strong> {{ record.province }} </p>
+         <p> <strong> Country : </strong> {{ record.country }} </p>
+         <p> <strong> Date Created : </strong> {{ record.creation_date }} </p>
+     </div>
+ </div>
 </body>
 </html>
+{% endblock %}
