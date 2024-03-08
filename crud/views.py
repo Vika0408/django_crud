@@ -83,7 +83,7 @@ def update_record(request, pk):
 # - view a record
 
 @login_required(login_url='my-login')
-def update_record(request, pk):
+def singular_record(request, pk):
     all_records = Record.objects.get(id=pk)
     context = {'record': all_records}
     return render(request, 'crud/view-record.html', context=context)

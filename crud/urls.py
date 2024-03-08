@@ -10,4 +10,5 @@ urlpatterns = [
     path('dashboard', views.dashboard, name="dashboard"),
     path('create-record', views.create_record, name="create-record"),
     path('update-record/<int:pk>', views.update_record, name="update-record"),
+    path('record/<int:pk>/', views.singular_record, name="record"),
 ]
