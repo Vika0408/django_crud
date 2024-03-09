@@ -13,5 +13,5 @@ class Record(models.Model):
     province = models.CharField(max_length=200)
     country = models.CharField(max_length=125)
 
-    def __str__(self) :
+    def __str__(self):
         return self.first_name + " " + self.last_name

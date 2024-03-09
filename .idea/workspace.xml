@@ -5,18 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4966a520-e953-4d7f-a633-deae70420012" name="Changes" comment="09-03-2024">
+      <change beforePath="$PROJECT_DIR$/.idea/djangoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangoProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/templates/crud/create-record.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/templates/crud/create-record.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/templates/crud/my-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/templates/crud/my-login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/templates/crud/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/templates/crud/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/templates/crud/update-record.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/templates/crud/update-record.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/templates/crud/view-record.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/templates/crud/view-record.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/crud/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/static/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/crud/static/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/templates/crud/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/templates/crud/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,6 +82,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.qodana",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -134,7 +139,7 @@
       <workItem from="1709540038128" duration="124000" />
       <workItem from="1709729218021" duration="1839000" />
       <workItem from="1709890337710" duration="6178000" />
-      <workItem from="1709973785363" duration="4570000" />
+      <workItem from="1709973785363" duration="7480000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -272,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709976745123</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="09-03-2024">
+      <option name="closed" value="true" />
+      <created>1709978683115</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1709978683115</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
