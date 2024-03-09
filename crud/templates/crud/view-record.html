@@ -5,8 +5,12 @@
 <body>
  <div class = "card">
      <strong>
+         &nbsp;
+
          {{ record.first_name|upper }} {{ record.last_name|upper }}
      </strong>
+
+     <hr>
      <div class="card-body">
          <p> <strong> ID : </strong>{{ record.id }} </p>
          <p> <strong> Email : </strong> {{ record.email }} </p>
@@ -28,7 +32,7 @@
 
 &nbsp;
 
-<a href="{% url '' %}" class="btn btn-danger"> Delete </a>
+<a href="{% url 'dashboard' %}" class="btn btn-danger"> Delete </a>
 
 </body>
 </html>
