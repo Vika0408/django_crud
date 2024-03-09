@@ -4,14 +4,14 @@
 <html lang="en">
 <body>
  <div class = "card">
-     <strong>
-         &nbsp;
 
-         {{ record.first_name|upper }} {{ record.last_name|upper }}
-     </strong>
+     <div class="card-body">
+         <i class="fa fa-user-circle" aria-hidden="true"></i> &nbsp;
+         <strong>
+         &nbsp; {{ record.first_name|upper }} {{ record.last_name|upper }}
+         </strong>
 
      <hr>
-     <div class="card-body">
          <p> <strong> ID : </strong>{{ record.id }} </p>
          <p> <strong> Email : </strong> {{ record.email }} </p>
          <p> <strong> Phone : </strong> {{ record.phone }} </p>
@@ -24,15 +24,15 @@
  </div>
 <br>
 
-<a href="{% url 'dashboard' %}" class="btn btn-secondary"> Return </a>
+<a href="{% url 'dashboard' %}" class="btn btn-secondary"> Return &nbsp;</a>
 
 &nbsp;
 
-<a href="{% url 'update-record' record.id %}" class="btn btn-info"> Update Record </a>
+<a href="{% url 'update-record' record.id %}" class="btn btn-info"> Update Record &nbsp; </a>
 
 &nbsp;
 
-<a href="{% url 'delete-record' record.id %}" class="btn btn-danger"> Delete </a>
+<a href="{% url 'delete-record' record.id %}" class="btn btn-danger"> Delete &nbsp; </a>
 
 </body>
 </html>

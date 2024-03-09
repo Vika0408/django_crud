@@ -3,7 +3,7 @@
 {% load crispy_forms_tags %}
 {% block content %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <body>
 <div class="container bg-light shadow-md p-5 form-layout">
     <h3> Create Record </h3>
@@ -12,9 +12,30 @@
     <br>
     <form method="POST" autocomplete="off">
         {% csrf_token %}
-        {{form|crispy}}
+        {{form.first_name|as_crispy_field}}
         <br>
-        <button type="submit" class="btn btn-primary w-100 btn-block p-2"> Create Record </button>
+        {{form.last_name|as_crispy_field}}
+        <br>
+        {{form.email|as_crispy_field}}
+        <br>
+        {{form.phone|as_crispy_field}}
+        <br>
+        {{form.address|as_crispy_field}}
+        <br>
+        {{form.city|as_crispy_field}}
+        <br>
+        {{form.province|as_crispy_field}}
+        <br>
+        {{form.country|as_crispy_field}}
+        <br>
+        <button type="submit" class="btn btn-primary w-50 btn-block p-1">
+            Create Record &nbsp; <i class="fa fa-check-square-o" aria-hidden="true"></i>
+        </button>
+        &nbsp;
+         <a href= "{% url 'dashboard' %}" class="btn btn-secondary" >
+            Return &nbsp; <i class="fa fa-angle-double-left" aria-hidden="true"></i>
+        </a>
+
 
     </form>
 </div>
