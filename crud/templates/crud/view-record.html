@@ -18,6 +18,18 @@
          <p> <strong> Date Created : </strong> {{ record.creation_date }} </p>
      </div>
  </div>
+<br>
+
+<a href="{% url 'dashboard' %}" class="btn btn-secondary"> Return </a>
+
+&nbsp;
+
+<a href="{% url 'update-record' record.id %}" class="btn btn-info"> Update Record </a>
+
+&nbsp;
+
+<a href="{% url '' %}" class="btn btn-danger"> Delete </a>
+
 </body>
 </html>
 {% endblock %}
